@@ -1,63 +1,55 @@
 html {
-      height: 100%;
-    }
-    body {
-       width: 800px;
-       height: 100%;
-       margin:50px;
-    }
+    height: 100%;
+    background: url(http://www.photos-public-domain.com/wp-content/uploads/2011/12/orange-paper-texture-with-flecks.jpg);
+    padding: 0 auto;
+  }
+  body {
+     height: 100%;
+     /*margin: auto;*/
+  }
 
-    header {
-        background-color:#FF0000 ;
-        padding: 50px;
-        text-align: center;
-        font-size: ;
-        border: 50px;
-        border color: #000000;
-        margin: auto 0;
-        display: block;
-    }
-    nav {text-align: left;
-        float: left 100%;
-    }
-    nav ul {
-        padding: ;
-        float: left;
-        border-bottom: ;
-        list-style-type: none;
-    }
-    nav li {
-        float: left;
-    }
-    nav li a {
-        display: block;
-        height: 25px;
-        padding: 12px 18px 8px 18px;
-        vertical-align: middle;
-    }
-    a {
-        color: ;
-    }
-    section {
-        width: 73%;
-        display: inline-block;
-        float: left;
-    }
-    aside {
-        width: 17%;
-        display: inline-block;
-        background-color:;
-        padding:;
-        min-height: 100%;
-    }
-    aside ul {
-        list-style-type: none;
-    }
-    img {height: 60%;padding: 10px}
-    footer {
-        width: 790px;
-        background-color:;
-        color:;
-        clear: both;
-        display: block;
-    }
+  header {
+      background-color:black;
+      text-align: center;
+      color:white;
+      padding:5 5 5 5;
+      font-size: ;
+      display: inline-block;
+      width: 100%;
+  }
+  nav {
+      background-color: black;
+      display: inline-block;
+      /*width:125px;
+      height: 600px;*/
+      /*text-align: left;*/
+      padding: 0;
+      /*margin: 0;*/
+  }
+  nav ul {
+      /*margin: 5;*/
+      padding-left: 0;
+  }
+  a {
+      color: white;
+      text-align: left;
+      margin-left: 0;
+  }
+  article {
+      padding: 0px;
+      width: 800px;
+      display: inline;
+      margin: 0;
+  }
+  img {
+    height: 25%;
+    display: inline;
+    /*padding-left: 150px;*/
+  }
+  h2 {
+    /*padding-left: 150px;*/
+  }
+  p {
+    color: black;
+    /*padding-left: 150px;*/
+  }
